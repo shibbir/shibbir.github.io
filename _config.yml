@@ -1,0 +1,31 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Shibbir Ahmed | Web Developer
+email: shibbir.io@outlook.com
+url: # the base hostname & protocol for your site
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:title
+paginate:          3
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Shibbir Ahmed
+  github: shibbir
+  twitter: shibbir_io
+  about: shibbir
+  disqus-shortname: shibbir

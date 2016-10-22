@@ -12,6 +12,15 @@ h2 {
     text-decoration: underline;
 }
 
+blockquote {
+    font-size: 1.2em;
+}
+
+blockquote p {
+    font-style: normal;
+    text-transform: none;
+}
+
 #site-head, article, article.preview, a.archive-link, .article-nav {
     max-width: 850px;
 }

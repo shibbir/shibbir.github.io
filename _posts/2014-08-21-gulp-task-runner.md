@@ -47,6 +47,7 @@ Now the way gulp work is each task is separated through modules. so each module 
 ```bash
 npm install gulp-minify-css --save-dev
 ```
+
 ## Working with Gulp
 
 Lets create a css file, for example **site.css**
@@ -113,7 +114,7 @@ Now simply run gulp watch. Now gulp will automatically trigger "css" task that w
 ## Real world example
 Lets create a real world example. We will minify, concat our css and js files and also compress our image files. Our directory structure will look like this:
 
-![before-gulp]({{"/assets/img/2014/08/before-gulp.png" | relative_url}})
+![before-gulp](https://res.cloudinary.com/shibbir/image/upload/q_100/v1477222564/before-gulp_y9nznh.png)
 
 First, lets download the necessary packages we need for this particular scenario:
 
@@ -220,7 +221,7 @@ gulp
 ```
 
 Now, lets check the solution directory again:
-![after-gulp]({{"/assets/img/2014/08/after-gulp.png" | relative_url}})
+![after-gulp](https://res.cloudinary.com/shibbir/image/upload/q_100/v1477222564/after-gulp_drwfxr.png)
 
 You can see that gulp has created a build directory and inside that it creates both css and js directory with both minified and unminified files. Also creates a img folder that contains the compressed images.
 
@@ -228,14 +229,10 @@ You can see that gulp has created a build directory and inside that it creates b
 
 Easy, right? Although we've gone through only the basics of Gulp. Gulp can do much more than this and can be very complex or very simple depending on the project.
 
-For further details please check the documentation:
-<a href="http://gulpjs.com/">http://gulpjs.com/</a>
-<a href="http://gulpjs.com/plugins/">http://gulpjs.com/plugins/</a>
-
-Also here are some of the useful gulp plugins for your next project:
-<a href="https://www.npmjs.com/package/gulp-util">gulp-util</a>
-<a href="https://www.npmjs.com/package/gulp-load-plugins">gulp-load-plugins</a>
-<a href="https://www.npmjs.com/package/gulp-uglify">gulp-uglify</a>
-<a href="https://www.npmjs.com/package/gulp-concat">gulp-concat</a>
-<a href="https://www.npmjs.com/package/gulp-clean-css">gulp-clean-css</a>
-<a href="https://www.npmjs.com/package/gulp-rename">gulp-rename</a>
+#### Here some of the useful gulp plugins for your next project:
+* [gulp-util](https://www.npmjs.com/package/gulp-util)
+* [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
+* [gulp-concat](https://www.npmjs.com/package/gulp-concat)
+* [gulp-rename](https://www.npmjs.com/package/gulp-rename)
+* [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)
+* [gulp-load-plugins](https://www.npmjs.com/package/gulp-load-plugins)

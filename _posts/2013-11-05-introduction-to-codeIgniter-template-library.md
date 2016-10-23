@@ -125,7 +125,7 @@ Finally, the `render()` method will render our template to the browser. Note tha
 **Caution:** The `render()` method should be the last thing called from any public Controller methods that make use of this Template Library.
 
 Now if we did everything right we should have a output like this:
-![]({{site.url}}/assets/img/2013/11/ci_template_with_region.png)
+![]({{"/assets/img/2013/11/ci_template_with_region.png" | relative_url}})
 
 Now, lets say instead of some simple string that we passed through our controller to the view, we want to pass an array. This data may come from a web service or from a database. For the sake of this demo we will create some dummy data and pass them to the view for rendering.
 
@@ -176,7 +176,7 @@ Lets create that view. Make a folder called welcome under the views folder. And 
 
 Now, if we browse **/YourApplicationDirectory/index.php/welcome/customer** we should see something like this:
 
-![]({{site.url}}/assets/img/2013/11/ci_template_with_data_passed_to_region.png)
+![]({{"/assets/img/2013/11/ci_template_with_data_passed_to_region.png" | relative_url}})
 
 ## Wrap up
 

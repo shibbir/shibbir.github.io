@@ -113,7 +113,7 @@ Now simply run gulp watch. Now gulp will automatically trigger "css" task that w
 ## Real world example
 Lets create a real world example. We will minify, concat our css and js files and also compress our image files. Our directory structure will look like this:
 
-![before-gulp]({{site.url}}/assets/img/2014/08/before-gulp.png)
+![before-gulp]({{"/assets/img/2014/08/before-gulp.png" | relative_url}})
 
 First, lets download the necessary packages we need for this particular scenario:
 
@@ -220,7 +220,7 @@ gulp
 ```
 
 Now, lets check the solution directory again:
-![after-gulp]({{site.url}}/assets/img/2014/08/after-gulp.png)
+![after-gulp]({{"/assets/img/2014/08/after-gulp.png" | relative_url}})
 
 You can see that gulp has created a build directory and inside that it creates both css and js directory with both minified and unminified files. Also creates a img folder that contains the compressed images.
 

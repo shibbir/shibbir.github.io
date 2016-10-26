@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Shibbir Ahmed | Web Developer
+title: Shibbir Ahmed | Web developer
 url: # the base hostname & protocol for your site
 
 #
@@ -15,7 +15,7 @@ markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:title
-paginate:          3
+paginate:          4
 
 #
 ###################################

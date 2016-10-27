@@ -2,7 +2,6 @@
 layout: post
 title: "Lexical Analyzer"
 date: 2011-01-08 20:04:00 +0600
-tags: C/C++
 category: C/C++
 excerpt: I'm doing compiler course in my current semester (Fall' 10). The programs I'm doing for the lab classes were not fully optimized and in fact not very efficient too. For example, I've created a Lexical Analyzer in C++, where no error detection module was present. And, also the program was not fully completed, it doesn't recognize structure, while loop etc
 ---

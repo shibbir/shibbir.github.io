@@ -2,7 +2,6 @@
 layout: post
 title: "Symbol Table Simulation"
 date: 2011-01-08 20:04:00 +0600
-tags: C/C++
 category: C/C++
 excerpt: In computer science, a symbol table is a data structure used by a language translator such as a compiler or interpreter, where each identifier in a program's source code is associated with information relating to its declaration or appearance in the source
 ---

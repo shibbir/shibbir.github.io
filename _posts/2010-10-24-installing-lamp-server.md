@@ -2,7 +2,6 @@
 layout: post
 title: "Installing Lamp Server"
 date: 2010-10-24 20:04:00 +0600
-tags: php
 category: php
 excerpt: In this post we will see how we can install lamp server which is a web service solution stacks for developing php application in ubuntu
 ---

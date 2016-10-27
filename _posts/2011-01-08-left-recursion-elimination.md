@@ -2,7 +2,6 @@
 layout: post
 title: "Left Recursion Elimination"
 date: 2011-01-08 20:04:00 +0600
-tags: C/C++
 category: C/C++
 excerpt: In the formal language theory of computer science, left recursion is a special case of recursion where a string is recognized as part of a language by the fact that it decomposes into a string from that same language (on the left) and a suffix (on the right). For instance, 1+2+3 can be recognized as a sum because it can be broken into 1+2, also a sum, and +3, a suitable suffix
 ---

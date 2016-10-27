@@ -2,7 +2,6 @@
 layout: post
 title: "Avro in Ubuntu"
 date: 2010-11-15 20:04:00 +0600
-tags: linux
 category: linux
 excerpt: In this post we will see how we can install avro which is a Bangla typing software in ubuntu
 ---

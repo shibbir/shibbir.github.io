@@ -2,7 +2,6 @@
 layout: post
 title: "Shift Reduce Parser"
 date: 2011-12-14 20:04:00 +0600
-tags: C/C++
 category: C/C++
 excerpt: A shift-reduce parser is a class of efficient, table-driven bottom-up parsing methods for computer languages and other notations formally defined by a grammar. The parsing methods most commonly used for parsing programming languages, LR parsing and its variations, are shift-reduce methods
 ---

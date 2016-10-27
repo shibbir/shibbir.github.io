@@ -2,7 +2,6 @@
 layout: post
 title: "Displaying PHP Errors on LAMP Server"
 date: 2011-11-26 20:04:00 +0600
-tags: php
 category: php
 excerpt: By default the LAMP server doesn't display any error if there are errors in your php file. It just shows a blank page. That means you cannot see in which line the error is occurred. Hopefully, you can enable the error display option easily
 ---

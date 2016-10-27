@@ -2,7 +2,6 @@
 layout: post
 title: "Sum is 6, first die is 4"
 date: 2010-09-27 20:04:00 +0600
-tags: miscellaneous
 category: miscellaneous
 excerpt: হাহাহাহাহাহাহা…পুরা ক্লাসেই আজকে এই লুপ চলছে Sum is 6, first die is 4. আমি কিছু প্রশ্ন করলাম আর আমাকে বলে, “তোমার নাম কি? ও আচ্ছা শিব্বির আহমেদ। শোন আগে বুঝে তারপর প্রশ্ন করবে
 ---

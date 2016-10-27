@@ -2,7 +2,6 @@
 layout: post
 title: "Gulp task runner"
 date: 2014-08-21 20:04:00 +0600
-tags: gulp
 category: javascript
 excerpt: Gulp is a task runner or build tool for web development. When working on a javascript projects, quite often we have to do some repetitive tasks such as minifying the css or javascript, concatenating them into one file to reduce the HTTP round trip between server to the client browser, optimizing images, running the tests etc
 ---

@@ -14,7 +14,7 @@ url: # the base hostname & protocol for your site
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:title
+permalink:         /:title
 paginate:          4
 
 #

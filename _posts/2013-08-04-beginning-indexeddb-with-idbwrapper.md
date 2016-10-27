@@ -2,7 +2,6 @@
 layout: post
 title: "Beginning IndexedDB with IDBWrapper"
 date: 2013-08-04 20:04:00 +0600
-tags: indexeddb
 category: html5
 excerpt: In this article we will see how we can use indexeddb which is a browser based database with a library called IDBWrapper to ease the use of indexedDB and abstract away the differences between the existing implementations in Chrome, Firefox and IE10
 ---

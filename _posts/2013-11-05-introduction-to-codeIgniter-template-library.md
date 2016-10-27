@@ -2,7 +2,6 @@
 layout: post
 title: "Introduction to CodeIgniter template library"
 date: 2013-11-05 20:04:00 +0600
-tags: codeigniter
 category: php
 excerpt: Today we are going to implement master page concept in our php application with a template library called CI template library by Colin Williams. Please keep in mind that this is not a codeigniter tutorial or how to set up a codeigniter application type post. I am assuming that
 ---

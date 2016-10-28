@@ -2,14 +2,13 @@
 layout: post
 title: "Introduction to Webpack"
 date: 2016-10-21 20:04:00 +0600
-tags: webpack
 category: javascript
-excerpt: Webpack is a module bundler. Modules are like small chunk of code that can be reused or distributed among other projects. Most of the programming languages have some sort of features that offers a way to partition of code. Unfortunately, JavaScript doesn't have a built in module system, except for, distributing code over different files.
+excerpt: Webpack is a module bundler. Modules are like small chunk of code that can be reused or distributed among other projects. Most of the programming languages have some sort of features that offers a way to partition of code. Unfortunately, JavaScript doesn't have a built in module system, except for, distributing code over different files
 ---
 
 ## Introduction
 
-Webpack is a module bundler. Modules are like small chunk of code that can be reused or distributed among other projects. Most of the programming languages have some sort of features that offers a way to partition of code. Unfortunately, JavaScript doesn't have a built in module system, except for, distributing code over different files. But fortunately there are some standards available that we can use to create module in JavaScript.
+[Webpack](https://webpack.github.io/) is a module bundler. Modules are like small chunk of code that can be reused or distributed among other projects. Most of the programming languages have some sort of features that offers a way to partition of code. Unfortunately, JavaScript doesn't have a built in module system, except for, distributing code over different files. But fortunately there are some standards available that we can use to create module in JavaScript.
 
 Some standards to define module in JavaScript:
 
@@ -17,14 +16,14 @@ Some standards to define module in JavaScript:
 * AMD(Asynchronous Module Definition): RequireJS is the most popular implementation.
 * ES6 modules
 
-## Why Webpack
 Webpack supports all those module systems. By using webpack, developer can choose their favorite module system. Webpack also makes it easy to add custom module styles. Webpack can also replace grunt/gulp as your only build tool. It also has [Code Splitting](http://webpack.github.io/docs/code-splitting.html) feature which is very cool.
 
 ## Lets get started
 
-Lets say we have two JavaScript module in our application and we want to load those in correct order. We want module1.js to be loaded first and then we want to load module2.js. We will do something similar to this:
+Lets say we have two JavaScript modules in our application and we want to load those in correct order. We want **module1.js** to be loaded first and then we want to load **module2.js**. We will do something similar to this:
 
-`index.html`
+#### index.html
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -35,12 +34,14 @@ Lets say we have two JavaScript module in our application and we want to load th
 </html>
 ```
 
-`module1.js`
+#### module1.js
+
 ```javascript
 console.log('This is module 1');
 ```
 
-and `module2.js`
+#### module2.js
+
 ```javascript
 console.log('This is module 2');
 ```
@@ -147,4 +148,57 @@ Webpack came with some built in plugins. Here we are using `DedupePlugin` and `U
 
 ## Multiple entry points
 
-One of the selling point of webpack is the ability to split your code into multiple chunks. This can keep the initial download small and downloads code on demand when requested by the application. To
+You can also create multiple bundles for multiple HTML pages. So for example if you have two html pages `pageA` and `pageB`, for those you want to create individual bundles. You can do the following configuration in `webpack.config.js`:
+
+```javascript
+var path = require('path');
+
+module.exports = {
+    entry: {
+        pageA: './pageA',
+        pageB: './pageB'
+    },
+    output: {
+        path: path.join(__dirname, 'dist'),
+        filename: '[name].entry.js'
+    }
+};
+```
+
+#### pageA.js
+```javascript
+require.ensure(['module-a'], function(require) {
+    var a = require('module-a');
+    // ...
+});
+```
+
+#### pageB.js
+```javascript
+require.ensure(['module-b'], function(require) {
+    var b = require('module-b');
+    // ...
+});
+```
+
+#### pageA.html
+
+```html
+<html>
+    <body>
+        <script src="pageA.bundle.js"></script>
+    </body>
+</html>
+```
+
+#### pageB.html
+
+```html
+<html>
+    <body>
+        <script src="pageB.bundle.js"></script>
+    </body>
+</html>
+```
+
+That's it for now. We only just touched some basic features of webpack. Webpack can do much more. To learn more about webpack go to the official [docs](https://webpack.github.io/docs/).

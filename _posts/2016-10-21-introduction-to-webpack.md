@@ -97,7 +97,7 @@ webpack ./app.js app.bundle.js
 
 So we tell webpack what is our source file and also the destination file. You will webpack creates a `app.bundle.js` in your project root (this is also configurable).
 
-![]({{site.url}}/assets/img/2016/10/webpack-1.PNG)
+![]({{"/assets/img/2016/10/webpack-1.png" | relative_url}})
 
 Finally we have to reference `app.bundle.js` in html:
 

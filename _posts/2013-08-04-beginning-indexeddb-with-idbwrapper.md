@@ -39,21 +39,10 @@ Let's build a small todo application using IDBWrapper. First create a html file.
     <title>Simple Todo List using IDBWrappper</title>
  
     <style>
-        body {
-            margin-top: 50px;
-        }
-        #container {
-            margin: auto;
-            width: 900px;
-        }
-        th {
-            text-align: left;
-            padding: 8px 8px 8px 0;
-        }
-        td {
-            border-top: 1px solid #DDDDDD;
-            padding: 8px 8px 8px 0;
-        }
+        body { margin-top: 50px; }
+        th { text-align: left; padding: 8px 8px 8px 0; }
+        td { border-top: 1px solid #DDDDDD; padding: 8px 8px 8px 0; }
+        #container { margin: auto; width: 900px; }
     </style>
 </head>
 <body>
@@ -172,4 +161,4 @@ Here, we receive the id and uses the remove method to remove that particular tod
 
 And that's all. We just created our very first application using IndexedDB.
 
-By the way, I've also made an simple contact manager application using IndexedDB, which you can download from [here](https://shibbir.io/SimpleContactManager/).
+I have also made an simple contact manager application using IndexedDB, which you can download from [here](https://shibbir.io/simple-contact-manager/).

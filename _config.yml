@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Shibbir Ahmed | Web developer
+title: Shibbir Ahmed | Software Engineer
 url: # the base hostname & protocol for your site
 
 #
@@ -27,4 +27,3 @@ owner:
   github: shibbir
   twitter: shibbir_io
   about: shibbir
-  disqus-shortname: shibbir
